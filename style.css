@@ -404,3 +404,34 @@ height: auto ;
     width: 49%;
     height: auto;
 }
+
+
+.view_more_button{
+    width: 25vw;
+    padding: 23px;
+    margin-top: 34vh;
+    margin-left: 40vw;
+    border: 2px solid #F67329;
+    color: #F67329;
+    background-color: white;
+    font-size: 1.3em;
+}
+
+
+.section_3{
+    margin-top: 50vh;
+}
+
+.gallery_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.pictu_1{
+    width: 5vw;
+    height: 10vh;
+}
