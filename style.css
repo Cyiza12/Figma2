@@ -91,6 +91,41 @@ height: auto ;
     color: rgb(113, 112, 112);
     
 }
+[class*="title_"]{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    width: 5vw;
+    border-bottom:3px solid #F67329;
+    
+    border-left-width:4vw ;
+}
+.title_1{
+position: absolute;
+margin-top: 23vh;
+margin-left: 9vw;
+border-left: 3px solid #F67329;
+border-top: 1px solid #F67329;
+border-right: 1px solid #F67329;
+}
+.title_2{
+    position: absolute;
+    margin-top:41vh;
+    margin-left: 41vw;
+    z-index: 1000;
+    border-right: 3px solid #F67329;
+    border-top: 1px solid #F67329;
+    border-left: 1px solid #F67329;
+}
+.title_3{
+    position: absolute;
+    margin-top:77vh;
+    margin-left: 19vw;
+    z-index: 1000;
+    border-left: 3px solid #F67329;
+    border-top: 1px solid #F67329;
+    border-right: 1px solid #F67329;
+}
 .client_tab{
     margin-top: 29%;
     width: 100%;
@@ -124,21 +159,22 @@ height: auto ;
     margin-top: -3%;
     display: block;
     margin-left: 25vh;
-    z-index: 10;
+
+    
 }
 .pic_2{
     width: 30%;
     height: 42vh;
     transform: translateY(-30vh);
     margin-left: 60%;
+    z-index: 1000;
     
 }
 .pic_3{
     width: 30%;
     height: 42vh;
     margin-left: -45%;
-    
-    
+
     transform: translateY(6vh);
 }
 [class*="pic_"]{
@@ -555,7 +591,7 @@ font-family: Helvetica;
 }
 .photoss{
     display: flex;
-    width:90% ;
+    width:95% ;
     display: flex;
     justify-content: space-between;
 }
@@ -572,10 +608,78 @@ font-family: Helvetica;
     border: 30px solid #fbc09e;
     
 }
-
-/*.textt{
-    width: 95%;
+.footer{
+    display: flex;
+    width: 100%;
     height: auto;
+    background-color: #2e2e2e;
+    margin-top: 20vh;
+}
+[class*="footer_"]{
+    width: 50%;
+    height: auto;
+    
+    
 }
 
-*/
+.footer .footer_left h1{
+    margin-left: 6vw;
+    color: white;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+.footer .footer_right h1{
+    margin-left: 15vw;
+    color: white;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+.footer .footer_right form{
+    margin-left: 15vw;
+}
+.footer .footer_left ul{
+    margin-left: 5vw;
+    list-style-type: none;
+}
+.footer .footer_left ul li{
+   padding: 2.5vh;
+    
+}
+.footer .footer_left ul li a{
+   text-decoration: none;
+   color: white; 
+   font-size: 1.2em; 
+   font-family: Helvetica;  
+}
+.email{
+width: 25vw;
+padding: 5vh;
+font-size: 1.2em;
+background-color: #2e2e2e;
+border:2px solid #565454;
+}
+.search_input3{
+    font-family: Helvetica;
+    width: 25vw;
+    padding: 5vh;
+    height: 10vh;
+    font-size: 1.2em;
+    background-color: #2e2e2e;
+    border:2px solid #565454;
+}
+.send_button{
+    width: 30vw;
+   padding: 4vh;
+   font-size: 1.2em;
+   background-color: #f19d3a;
+   border: none;
+   border-radius: 2px;
+   color: white;
+}
+.Issa_logo{
+    margin-left: 6vw;
+    margin-top: 20vh;
+}
+
+
+
